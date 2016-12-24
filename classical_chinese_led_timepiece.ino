@@ -9,6 +9,11 @@ void setup()
 
 void loop()
 {
+  miaoLoop();
+}
+
+void miaoLoop()
+{
   digitalWrite(13, HIGH);
   digitalWrite(12, LOW);
   delay(one_miao);
