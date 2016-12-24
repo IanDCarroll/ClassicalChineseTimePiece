@@ -9,7 +9,11 @@ void setup()
 
 void loop()
 {
-  miaoLoop();
+  int miao = 0;
+  while(miao < 100){
+    miaoLoop();
+    miao++;
+  }
 }
 
 void miaoLoop()
