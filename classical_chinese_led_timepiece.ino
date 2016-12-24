@@ -27,9 +27,9 @@ void loop()
 void delayOneFen()
 {
   int miao = 0;
-  while(miao < one_fen / 2){
+  while(miao < one_fen){
     blinkTwoMiao();
-    miao++;
+    miao += 2;
   }
 }
 
