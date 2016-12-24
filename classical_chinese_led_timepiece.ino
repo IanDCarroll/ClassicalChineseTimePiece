@@ -1,5 +1,5 @@
-int one_miao = 144; // milliseconds
-int one_fen = 100;  // miao
+int one_miao = 144; // milliseconds in 1 miao
+int one_fen = 100;  // miao in 1 fen
 
 void setup()
 {
@@ -22,13 +22,13 @@ void loop()
 void delayOneFen()
 {
   int miao = 0;
-  while(miao < 100){
-    blinkMiao();
+  while(miao < one_fen / 2){
+    blinkTwoMiao();
     miao++;
   }
 }
 
-void blinkMiao()
+void blinkTwoMiao()
 {
   digitalWrite(13, HIGH);
   digitalWrite(12, LOW);
