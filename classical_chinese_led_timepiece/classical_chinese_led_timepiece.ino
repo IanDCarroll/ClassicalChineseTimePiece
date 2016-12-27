@@ -1,13 +1,18 @@
 const int one_miao = 144; // milliseconds in 1 miao
 const int one_fen = 100;  // miao in 1 fen
+const int one_ke = 60;    // fen in 1 ke
 
 const int miaoLED1 = 13;
 const int miaoLED2 = 12;
 const int fenLED1 = 9;
 const int fenLED2 = 8;
+const int keLED1 = 5;
+const int keLED2 = 4;
 
 void setup()
 {
+  pinMode(keLED1, OUTPUT);
+  pinMode(keLED2, OUTPUT);
   pinMode(fenLED1, OUTPUT);
   pinMode(fenLED2, OUTPUT);
   pinMode(miaoLED1, OUTPUT);
@@ -15,6 +20,25 @@ void setup()
 }
 
 void loop()
+{
+  digitalWrite(keLED1, HIGH);
+  digitalWrite(keLED2, LOW);
+  delayOneKe();
+  digitalWrite(keLED1, LOW);
+  digitalWrite(keLED2, HIGH);
+  delayOneKe();
+}
+
+void delayOneKe()
+{
+  int fen = 0;
+  while(fen < one_ke){
+    blinkTwoFen();
+    fen += 2;
+  }
+}
+
+void blinkTwoFen()
 {
   digitalWrite(fenLED1, HIGH);
   digitalWrite(fenLED2, LOW);
