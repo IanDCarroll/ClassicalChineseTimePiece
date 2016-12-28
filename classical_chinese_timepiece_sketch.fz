@@ -866,7 +866,7 @@
             </views>
         </instance>
         <instance moduleIdRef="3mmColorLEDModuleID" modelIndex="6584" path="/home/ian/fritzing-0.9.3b.linux.AMD64/fritzing-parts/core/LED-generic-3mm.fzp">
-            <property name="color" value="Red (633nm)"/>
+            <property name="color" value="Green (570nm)"/>
             <title>LED1</title>
             <views>
                 <breadboardView layer="breadboard">
@@ -951,7 +951,7 @@
             </views>
         </instance>
         <instance moduleIdRef="3mmColorLEDModuleID" modelIndex="6587" path="/home/ian/fritzing-0.9.3b.linux.AMD64/fritzing-parts/core/LED-generic-3mm.fzp">
-            <property name="color" value="Red (633nm)"/>
+            <property name="color" value="Green (570nm)"/>
             <title>LED2</title>
             <views>
                 <breadboardView layer="breadboard">
@@ -1040,7 +1040,7 @@
             </views>
         </instance>
         <instance moduleIdRef="3mmColorLEDModuleID" modelIndex="6590" path="/home/ian/fritzing-0.9.3b.linux.AMD64/fritzing-parts/core/LED-generic-3mm.fzp">
-            <property name="color" value="Red (633nm)"/>
+            <property name="color" value="Yellow (595nm)"/>
             <title>LED3</title>
             <views>
                 <breadboardView layer="breadboard">
@@ -1129,7 +1129,7 @@
             </views>
         </instance>
         <instance moduleIdRef="3mmColorLEDModuleID" modelIndex="6593" path="/home/ian/fritzing-0.9.3b.linux.AMD64/fritzing-parts/core/LED-generic-3mm.fzp">
-            <property name="color" value="Red (633nm)"/>
+            <property name="color" value="Yellow (592nm)"/>
             <title>LED4</title>
             <views>
                 <breadboardView layer="breadboard">
